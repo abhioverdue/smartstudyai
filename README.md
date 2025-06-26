@@ -71,8 +71,14 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/Scripts/activate
 pip install -r requirements.txt
+pip install python-jose[cryptography]
+pip install pydantic-settings 
+pip install passlib[bcrypt]
+pip install "pydantic[email]"
+pip install python-multipart
+
 
 # Database migration
 alembic upgrade head
@@ -337,3 +343,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *Empowering learners with intelligent, personalized education technology.*# SmartStudy-AI-
 # SmartStudy-AI-
+# smartstudyai
