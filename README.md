@@ -344,3 +344,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *Empowering learners with intelligent, personalized education technology.*# SmartStudy-AI-
 # SmartStudy-AI-
 # smartstudyai
+# smartstudyai
